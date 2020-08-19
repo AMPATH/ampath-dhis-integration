@@ -1,1 +1,1 @@
-console.log("DHIS2 Integration")
+console.log('DHIS2 Integration');
