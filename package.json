@@ -18,6 +18,7 @@
   },
   "keywords": [
     "dhis",
+    "dhis2",
     "node",
     "integration"
   ],
@@ -36,5 +37,12 @@
     "prettier": "^2.0.5",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/btoa": "^1.2.3",
+    "@types/dotenv": "^8.2.0",
+    "axios": "^0.19.2",
+    "btoa": "^1.2.1",
+    "dotenv": "^8.2.0"
   }
 }
