@@ -1,6 +1,8 @@
 import CrossBorderResource from './etl/crossBorder.resource';
+import CrossBorderReport from './dhis/crossBorder.report';
 
 const cb = new CrossBorderResource();
+const report = new CrossBorderReport();
 
 // to ensure it's working well
 const params = {
@@ -12,3 +14,4 @@ const params = {
 };
 
 cb.getAggregateReport(params);
+report.getDataElements();
