@@ -71,3 +71,6 @@ typings/
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+#build output Dir
+build/
